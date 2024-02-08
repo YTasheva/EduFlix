@@ -1,1 +1,71 @@
 # Bananas
+# Eduflix
+# KEJY Flix
+
+## Overview
+Eduflix is an educational platform inspired by Netflix, designed to provide users with access to a wide range of educational content available on YouTube. Users can explore various educational categories and seamlessly access relevant videos curated from the YouTube API.
+
+## User Story
+As a user interested in learning new topics or expanding my knowledge, I want to visit Eduflix and easily find educational videos on specific subjects of interest.
+
+## User Criteria
+Users interested in learning new topics or subjects.
+Users who prefer video-based educational content.
+Users who want a curated selection of educational videos from YouTube.
+
+## Acceptance Criteria
+
+### User Navigation:
+
+Users can easily navigate to the Eduflix website.
+The homepage prominently displays educational categories for users to choose from.
+Each category should be clearly labeled and visually distinct.
+
+### Category Selection:
+
+Upon selecting a category, users are presented with a list of educational videos related to that category.
+The list should include video titles, thumbnails, and brief descriptions for each video.
+Users can scroll through the list and explore different video options.
+
+### YouTube Integration:
+
+Videos displayed within each category are sourced from the YouTube API.
+Clicking on a video thumbnail or title redirects the user to the corresponding video on YouTube for playback.
+The integration with the YouTube API ensures that videos are up-to-date and relevant to the chosen category.
+
+### Responsive Design:
+
+The Eduflix website should be responsive and accessible across various devices, including desktops, tablets, and smartphones.
+The user experience remains consistent and intuitive regardless of the device used.
+
+### Search Functionality:
+
+Users can search for specific topics or keywords within the Eduflix platform.
+Search results should dynamically update as the user types, providing real-time feedback.
+
+### Accessibility and Usability:
+
+The website should adhere to accessibility standards to ensure inclusivity for all users.
+User interface elements should be intuitive and easy to use, catering to users with varying levels of technological proficiency.
+
+### Performance and Loading Times:
+
+The website should load quickly, minimizing loading times for both the initial page load and subsequent interactions.
+Optimize image and video loading to enhance performance and provide a seamless user experience.
+
+## Technologies Used
+React: Front-end framework for building the user interface.
+Node.js: JavaScript runtime for server-side development and API integration.
+YouTube API: Integrating YouTube's API for fetching and displaying educational videos.
+Netlify: Deployment platform for hosting the Eduflix application online.
+Future Development
+Implement user authentication and personalized recommendations based on user preferences.
+Enhance search functionality with advanced filtering options and predictive search suggestions.
+Introduce a rating and feedback system for users to provide feedback on the educational content.
+Expand content sources beyond YouTube to include other educational platforms and resources.
+
+## Contributing
+Contributions to the Eduflix project are welcome! Please refer to the CONTRIBUTING.md file for more information on how to contribute.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
