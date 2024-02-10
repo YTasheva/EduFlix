@@ -1,25 +1,14 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Discover from './Components/Container';
+import Routes from "./Routes";
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Search from './Components/Row';
-
 
 function App() {
     return (
-    <Router>
-      <div>
+      <div className="App">
         <Navbar />
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/Home" element={<Home/>} />
-            <Route path="/Conatiner" element={<Discover/>} />
-            <Route path="/Row" element={<Search/>} />
-          </Routes>
+           <Routes />
         <Footer />
       </div>
-    </Router>
     );
 }
 
