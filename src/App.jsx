@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import About from './components/About/';
-import Discover from './components/Container/';
-import Navbar from './components/Navbar/';
-import Footer from './components/Footer/';
-import Search from './components/Row/';
+import Discover from './Components/Container';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import Search from './Components/Row';
 
 
 function App() {
@@ -13,8 +12,8 @@ function App() {
       <div>
         <Navbar />
           <Routes>
-            <Route path="/" element={<About/>} />
-            <Route path="/About" element={<About/>} />
+            <Route path="/" element={<Home/>} />
+            <Route path="/Home" element={<Home/>} />
             <Route path="/Conatiner" element={<Discover/>} />
             <Route path="/Row" element={<Search/>} />
           </Routes>
