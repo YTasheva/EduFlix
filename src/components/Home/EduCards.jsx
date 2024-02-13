@@ -21,4 +21,22 @@ const cards = [
         image: education_1,
         circleText: "LOGIN TO WATCH",
       },
-     
+      {
+        id: 3,
+        price: "20,00",
+        date: "10.06.24",
+        topic:
+          "Lorem Ipsum",
+        image: education_1,
+        circleText: "DISCOVER MORE",
+      },
+
+      {
+        id: 4,
+        price: "30,00",
+        date: "10.04.24",
+        topic: "Lorem Ipsum",
+        image: education_1,
+        circleText: "DISCOVER MORE",
+      },
+      
