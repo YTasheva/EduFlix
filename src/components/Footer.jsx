@@ -11,7 +11,7 @@ const Footer = () => {
         </a>
         <a href="mailto:ytasheva@website.com" className="btn btn-light">
           <i className="fa fa-envelope-square m-1" aria-hidden="true"></i>
-          eduFlix@gmail.com
+          EduFlix@gmail.com
         </a>
         <a
           href="https://github.com/"
