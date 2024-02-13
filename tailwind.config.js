@@ -7,8 +7,8 @@ module.exports = {
         xs: "410",
       },
       backgroundImage: {
-        homefrontbg: "url('/assets/home/homefrontbg.jpg')",
-        "quiz.bg": "url('/assets/home/quizbg.jpg')",
+        homefrontbg: "url('/assets/home/images/banners.concept.jpg')",
+        "quiz.bg": "url('/assets/home/images/quiz.jpg')",
       },
       colors: {
         "button-primary": "#D9CAB8",
