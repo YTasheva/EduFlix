@@ -1,6 +1,6 @@
 import About from "../components/Home/About";
 import Front from "../components/Home/Front";
-import Funds from "../components/Home/Funds";
+import Funds from "../Components/Home/Edu";
 import HowItWorks from "../components/Home/HowItWorks";
 import News from "../components/Home/News";
 import Quiz from "../components/Home/Quiz";
