@@ -1,6 +1,6 @@
 import About from "../components/Home/About";
 import Front from "../components/Home/Front";
-import Funds from "../Components/Home/Edu";
+import Edu from "../Components/Home/Edu";
 import HowItWorks from "../components/Home/HowItWorks";
 import News from "../components/Home/News";
 import Quiz from "../components/Home/Quiz";
@@ -13,7 +13,7 @@ export default function Home() {
         <main>
             <Front />
             <Stats />
-            <Funds />
+            <Edu />
             <Quiz />
             <About />
             <HowItWorks />
