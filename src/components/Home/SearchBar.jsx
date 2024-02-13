@@ -23,11 +23,11 @@ export default function SearchBar() {
             <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">
               AI - Technology
             </p>
-            <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Front-End web Development</p>
+            <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Front-End Web Development</p>
             <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Facial Recognition</p>
             <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Cyber Security</p>
             <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Law</p>
-            <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Education</p>
+            <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">MIT</p>
           </div>
           <div>
             <h2 className="uppercase text-gray-400 font-bold py-4">projects</h2>
