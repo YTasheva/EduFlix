@@ -77,4 +77,10 @@ function Navbar() {
               >
                Education
               </Link>
-             
+              <Link
+                to="/"
+                className="hover:bg-primary-base hover:bg-button-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                About
+              </Link>
+              
