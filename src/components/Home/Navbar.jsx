@@ -20,5 +20,16 @@ function Navbar() {
                 >
                   Home
                 </Link>
-               
-export default Navbar;
+                <Link
+                  to="/"
+                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Education
+                </Link>
+                <Link
+                  to="/"
+                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  About
+                </Link>
+                
