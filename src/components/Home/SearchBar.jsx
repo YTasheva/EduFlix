@@ -29,4 +29,20 @@ export default function SearchBar() {
             <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Law</p>
             <p className="bg-[#F6F6F6] rounded-lg px-2 py-1">Education</p>
           </div>
-          
+          <div>
+            <h2 className="uppercase text-gray-400 font-bold py-4">projects</h2>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
+                <img
+                  src={random}
+                  alt="random"
+                  className="w-12 h-12 rounded-full"
+                />
+                <div>
+                  <h1 className="font-light capitalize text-base">
+                    Cyber Security
+                  </h1>
+                  <p className="opacity-40">102 Projects</p>
+                </div>
+              </div>
+              
