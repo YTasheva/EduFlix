@@ -2,10 +2,9 @@ import About from "../components/Home/About";
 import Front from "../components/Home/Front";
 import Edu from "../Components/Home/Edu";
 import HowItWorks from "../components/Home/HowItWorks";
-import News from "../components/Home/News";
 import Quiz from "../components/Home/Quiz";
 import Stats from "../components/Home/Stats";
-import Stories from "../components/Home/Stories";
+
 
 export default function Home() {
     return (
@@ -16,8 +15,6 @@ export default function Home() {
             <Quiz />
             <About />
             <HowItWorks />
-            <News />
-            <Stories />
             </main >
             );
         }
