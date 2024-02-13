@@ -15,4 +15,32 @@ export default function EduTabs() {
           <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
             Technology
           </Tab>
-          
+          <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
+            AI
+          </Tab>
+          <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
+            Maths
+          </Tab>
+          <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
+            Front-End Web Development
+          </Tab>
+          </TabList>
+      </div>
+      <TabPanel>
+        <EduCards />
+      </TabPanel>
+      <TabPanel>
+        <p>new  available soon</p>
+      </TabPanel>
+      <TabPanel>
+        <EduCards />
+      </TabPanel>
+      <TabPanel>
+        <p>new available soon</p>
+      </TabPanel>
+      <TabPanel>
+        <EduCards />
+      </TabPanel>
+        </Tabs>
+        );
+      }
