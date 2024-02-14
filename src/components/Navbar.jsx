@@ -61,4 +61,23 @@ function Navbar() {
           </div>
         </div>
 
-        
+        {isOpen && (
+          <div className="md:hidden transition-all" id="mobile-menu">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-black">
+              <Link
+                to="/"
+                className="hover:bg-primary-base hover:bg-button-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Home
+              </Link>
+              <Link
+                to="/"
+                className="hover:bg-primary-base hover:bg-button-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+               Education
+              </Link>
+              <Link
+                to="/"
+                className="hover:bg-primary-base hover:bg-button-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+               
