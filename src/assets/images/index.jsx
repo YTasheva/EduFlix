@@ -4,7 +4,7 @@ import digital_concept_1 from "./digital_concept_1.jpg";
 import digital_concept_2 from "./digital_concept_2.jpg";
 import digital_concept_3 from "./digital_concept_3.jpg";
 import education_1 from "./education_1.jpg";
-import quiz from "./quiz_bg.jpg";
+import quiz from "./quiz.jpg";
 
 
 export {
