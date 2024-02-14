@@ -1,25 +1,50 @@
-# Bananas
-# Eduflix
-# KEJY Flix
+<h1 align="center">EduFlix</h1>
+  <br>
+  
+## Table of contents
+
+- [Overview](#overview)
+  - [User Story](#user-story)
+  - [User Criteria](#user-criteria)
+  - [Acceptance Criteria](#acceptance-criteria)
+    - [User Navigation](#user-navigation)
+    - [Category selection](#category-selection)
+    - [YouTube Integration](#youtube-integration)
+    - [Responsive Design](#responsive-design)
+    - [Search Functionality](#github)
+    - [Accessibility and Usability](#accessibility-and-usability)
+    - [Performance and Loading Times](#performance-and-loading-times)
+- [Screenshot](#screenshot)
+- [Technologies Used](#technologies-used)
+- [Links](#links)
+- [Installation](#installation)
+- [Future Development](#future-development)
+- [Licence](#licence)
+- [Authors](#authors)
+
 
 ## Overview
-Eduflix is an educational platform inspired by Netflix, designed to provide users with access to a wide range of educational content available on YouTube. Users can explore various educational categories and seamlessly access relevant videos curated from the YouTube API.
+
+- Eduflix is an educational platform inspired by Netflix, designed to provide users with access to a wide range of educational content available on YouTube. Users can explore various educational categories and seamlessly access relevant videos curated from the YouTube API.
 
 ## User Story
 As a user interested in learning new topics or expanding my knowledge, I want to visit Eduflix and easily find educational videos on specific subjects of interest.
 
 ## User Criteria
+
 Users interested in learning new topics or subjects.
 Users who prefer video-based educational content.
 Users who want a curated selection of educational videos from YouTube.
 
 ## Acceptance Criteria
 
+
+
 ### User Navigation:
 
 Users can easily navigate to the Eduflix website.
 The homepage prominently displays educational categories for users to choose from.
-Each category should be clearly labeled and visually distinct.
+Each category should be clearly labelled and visually distinct.
 
 ### Category Selection:
 
@@ -53,18 +78,34 @@ User interface elements should be intuitive and easy to use, catering to users w
 The website should load quickly, minimizing loading times for both the initial page load and subsequent interactions.
 Optimize image and video loading to enhance performance and provide a seamless user experience.
 
+## Screenshot
+
+
 ## Technologies Used
+
 React: Front-end framework for building the user interface.
 Node.js: JavaScript runtime for server-side development and API integration.
 YouTube API: Integrating YouTube's API for fetching and displaying educational videos.
 Netlify: Deployment platform for hosting the Eduflix application online.
-Future Development
+
+## Links
+
+- [Deployed Application](https://BananasProject2.netlify.app/)
+- [GitHub Repo](https://github.com/JonRahman/BananasProject2)
+
+## Installation
+
+
+  
+## Future Development
+
 Implement user authentication and personalized recommendations based on user preferences.
 Enhance search functionality with advanced filtering options and predictive search suggestions.
 Introduce a rating and feedback system for users to provide feedback on the educational content.
 Expand content sources beyond YouTube to include other educational platforms and resources.
 
 ## Contributing
+
 Contributions to the Eduflix project are welcome! Please refer to the CONTRIBUTING.md file for more information on how to contribute.
 
 ## License
