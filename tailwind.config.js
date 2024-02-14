@@ -9,7 +9,7 @@ module.exports = {
       xs: "410px",
     },
     backgroundImage: {
-      homefrontbg: "url(./assets/images/banners_concept.jpg)",
+      homefrontbg: "url(./assets/images/AIBanner.png)",
     },
     colors: {
       "button-primary": "#D9CAB3",
