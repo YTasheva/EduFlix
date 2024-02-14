@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { logo } from "../Assets/Home/Images";
+import { logo } from "./assets/images";
 import Container from "./Container";
 
-// Sets the "active" class on the appropriate navigation link item
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
