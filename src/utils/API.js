@@ -1,16 +1,14 @@
 import axios from "axios";
 
-// Export an object containing methods we'll use for accessing the Dog.Ceo API
+const BASEURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q="
+const APIKEY = "&key=AIzaSyA4yEGIBSEOaFSVznZV2CZ63py3QzAVbsY"
+
+// Export an object containing methods we'll use for accessing the Youtube APi
 
 export default {
-  getRandomDog: function() {
-    return axios.get("https://dog.ceo/api/breeds/image/random");
-  },
-  getDogsOfBreed: function(breed) {
-    return axios.get("https://dog.ceo/api/breed/" + breed + "/images");
-  },
-  getBaseBreedsList: function() {
-    return axios.get("https://dog.ceo/api/breeds/list");
+  search: function(query) {
+    return axios.get(BASEURL + query + APIKEY);
+
   }
 };
 
