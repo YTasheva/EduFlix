@@ -109,4 +109,8 @@ Expand content sources beyond YouTube to include other educational platforms and
 Contributions to the Eduflix project are welcome! Please refer to the CONTRIBUTING.md file for more information on how to contribute.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Authors
+
+- GitHub - [Yuliya Tasheva](https://github.com/YTasheva); [Jon Rahman](https://github.com/JonRahman); [Emmanuel Boadi](https://github.com/emmaboadi); [Kelly ]
