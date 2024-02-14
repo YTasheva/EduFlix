@@ -1,4 +1,5 @@
 export default function EduCard({ key, card }) {
+    
     return (
       <div className="h-[550px] w-[320px]" key={key}>
         <div className="relative rounded-xl overflow-hidden">

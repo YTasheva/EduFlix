@@ -1,5 +1,5 @@
 import { useState } from "react";
-import random from "../Assets/Home/Images/quiz.jpg";
+import random from "../../assets/images/quiz.jpg";
 
 export default function SearchBar() {
   const [focusBox, setFocusBox] = useState(false);
@@ -33,7 +33,7 @@ export default function SearchBar() {
             <h2 className="uppercase text-gray-400 font-bold py-4">projects</h2>
             <div className="grid grid-cols-2 gap-4">
               <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
-                <img
+              <img
                   src={random}
                   alt="random"
                   className="w-12 h-12 rounded-full"

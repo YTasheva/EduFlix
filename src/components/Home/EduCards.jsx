@@ -1,7 +1,14 @@
 import EduCard from "./EduCard";
 import {
     education_1,
-} from "../../Assets/Home/Images";
+    education_2,
+    education_3,
+    education_4,
+    education_5,
+    education_6,
+    education_7,
+    education_8,
+} from "../../assets/images";
 
 const cards = [
     {
@@ -18,8 +25,8 @@ const cards = [
         date: "14.05.24",
         topic:
           "AI Basics - Creating AI driven education for a better connected Europe.",
-        image: education_1,
-        circleText: "LOGIN TO WATCH",
+        image: education_2,
+        circleText: "LOG IN TO WATCH",
       },
       {
         id: 3,
@@ -27,7 +34,7 @@ const cards = [
         date: "10.06.24",
         topic:
           "Lorem Ipsum",
-        image: education_1,
+        image: education_3,
         circleText: "DISCOVER MORE",
       },
 
@@ -36,7 +43,7 @@ const cards = [
         price: "30,00",
         date: "10.04.24",
         topic: "Lorem Ipsum",
-        image: education_1,
+        image: education_4,
         circleText: "DISCOVER MORE",
       },
       {
@@ -44,7 +51,7 @@ const cards = [
         price: "20,00",
         date: "16.08.24",
         topic: "Lorem Ipsum",
-        image: education_1,
+        image: education_5,
         circleText: "90% match",
       },
       {
@@ -52,7 +59,23 @@ const cards = [
         price: "10,00",
         date: "18.05.24",
         topic: "Lorem Ipsum",
-        image: education_1,
+        image: education_6,
+        circleText: "95% match",
+      },
+      {
+        id: 7,
+        price: "10,00",
+        date: "18.05.24",
+        topic: "Lorem Ipsum",
+        image: education_7,
+        circleText: "100% match",
+      },
+      {
+        id: 8,
+        price: "10,00",
+        date: "20.05.24",
+        topic: "Lorem Ipsum",
+        image: education_8,
         circleText: "95% match",
       },
 
