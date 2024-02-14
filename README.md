@@ -25,10 +25,10 @@
 
 ## Overview
 
-- Eduflix is an educational platform inspired by Netflix, designed to provide users with access to a wide range of educational content available on YouTube. Users can explore various educational categories and seamlessly access relevant videos curated from the YouTube API.
+- EduFlix is an educational platform inspired by Netflix, designed to provide users with access to a wide range of educational content available on YouTube. Users can explore various educational categories and seamlessly access relevant videos curated from the `YouTube API`.
 
 ## User Story
-- As a user interested in learning new topics or expanding my knowledge, I want to visit Eduflix and easily find educational videos on specific subjects of interest.
+- As a user interested in learning new topics or expanding my knowledge, I want to visit EduFlix and easily find educational videos on specific subjects of interest.
 
 ## User Criteria
 
@@ -40,7 +40,7 @@
 
 ### User Navigation:
 
-- Users can easily navigate to the Eduflix website.
+- Users can easily navigate to the EduFlix website.
 - The homepage prominently displays educational categories for users to choose from.
 - Each category should be clearly labelled and visually distinct.
 
@@ -52,18 +52,18 @@
 
 ### YouTube Integration:
 
-- Videos displayed within each category are sourced from the YouTube API.
+- Videos displayed within each category are sourced from the `YouTube API`.
 - Clicking on a video thumbnail or title redirects the user to the corresponding video on YouTube for playback.
-- The integration with the YouTube API ensures that videos are up-to-date and relevant to the chosen category.
+- The integration with the `YouTube API` ensures that videos are up-to-date and relevant to the chosen category.
 
 ### Responsive Design:
 
-- The Eduflix website should be responsive and accessible across various devices, including desktops, tablets, and smartphones.
+- The EduFlix website should be responsive and accessible across various devices, including desktops, tablets, and smartphones.
 - The user experience remains consistent and intuitive regardless of the device used.
 
 ### Search Functionality:
 
-- Users can search for specific topics or keywords within the Eduflix platform.
+- Users can search for specific topics or keywords within the EduFlix platform.
 Search results should dynamically update as the user types, providing real-time feedback.
 
 ### Accessibility and Usability:
@@ -81,10 +81,10 @@ Search results should dynamically update as the user types, providing real-time 
 
 ## Technologies Used
 
-- React: Front-end framework for building the user interface.
-- Node.js: JavaScript runtime for server-side development and API integration.
-- YouTube API: Integrating YouTube's API for fetching and displaying educational videos.
-- Netlify: Deployment platform for hosting the Eduflix application online.
+- **React:** Front-end framework for building the user interface.
+- **Node.js:** JavaScript runtime for server-side development and API integration.
+- **YouTube API:** Integrating `YouTube's API` for fetching and displaying educational videos.
+- **Netlify:** Deployment platform for hosting the Eduflix application online.
 
 ## Links
 
@@ -107,7 +107,7 @@ Search results should dynamically update as the user types, providing real-time 
 
 ## Contributing
 
-- Contributions to the Eduflix project are welcome! Please refer to the CONTRIBUTING.md file for more information on how to contribute.
+- Contributions to the EduFlix project are welcome! Please refer to the CONTRIBUTING.md file for more information on how to contribute.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
