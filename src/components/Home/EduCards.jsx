@@ -1,7 +1,7 @@
 import EduCard from "./EduCard";
 import {
     education_1,
-} from "../../Assets/Home/Images";
+} from "../../assets/images";
 
 const cards = [
     {
