@@ -1,7 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import EduCards from "./EduCards";
-import TitleSection from "./Components/TitleSection";
+import TitleSection from "./TitleSection";
 
 export default function EduTabs() {
     return (

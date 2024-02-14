@@ -1,8 +1,6 @@
 import About from "../components/Home/About";
 import Front from "../components/Home/Front";
-import Edu from "../Components/Home/Edu";
-import HowItWorks from "../components/Home/HowItWorks";
-import Quiz from "../components/Home/Quiz";
+import Edu from "../components/Home/Edu";
 import Stats from "../components/Home/Stats";
 
 export default function Home() {
@@ -11,9 +9,7 @@ export default function Home() {
       <Front />
       <Stats />
       <Edu />
-      <Quiz />
       <About />
-      <HowItWorks />
     </main>
   );
 }

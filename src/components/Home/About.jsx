@@ -1,6 +1,6 @@
-import { discover_1, discover_2, discover_3 } from "../../Assets/Home";
-import Container from "../Components/Container";
-import TitleSection from "./Components/TitleSection";
+import { digital_concept_1, digital_concept_2, digital_concept_3 } from "../../assets/images";
+import Container from "../Container";
+import TitleSection from "./TitleSection";
 
 const cards = [
   {

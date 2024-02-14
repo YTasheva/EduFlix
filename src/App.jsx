@@ -1,17 +1,21 @@
-import Layout from "./Layout";
-import Navbar from './Components/Home/Navbar';
-import Footer from './Components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
-    return (
+  return (
+    <Router>
       <div className="App">
         <Navbar />
-           <Layout />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
         <Footer />
       </div>
-    );
+    </Router>
+  );
 }
 
-
-
-export default App
+export default App;
