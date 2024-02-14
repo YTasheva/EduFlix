@@ -10,7 +10,7 @@ function Navbar() {
       <Container>
         <div className="flex items-center justify-between h-16">
           <div className="flex gap-4 items-center">
-            <img className="h-[40px] w-[120px]" src={logo} alt="Workflow" />
+            <img className="h-[40px] w-[40px]" src={logo} alt="Workflow" />
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
