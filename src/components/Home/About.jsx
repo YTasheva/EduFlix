@@ -1,6 +1,6 @@
-import { digital_concept_1, digital_concept_2, digital_concept_3 } from "./assets/images";
-import Container from "./Container";
-import TitleSection from "../TitleSection";
+import { digital_concept_1, digital_concept_2, digital_concept_3 } from "../../assets/images";
+import Container from "../Container";
+import TitleSection from "./TitleSection";
 
 const cards = [
   {
