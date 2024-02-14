@@ -11,6 +11,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex gap-4 items-center">
             <img className="h-[40px] w-[120px]" src={logo} alt="Workflow" />
+            <b> EduFlix</b>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
