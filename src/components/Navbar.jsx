@@ -80,4 +80,26 @@ function Navbar() {
                 to="/"
                 className="hover:bg-primary-base hover:bg-button-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
+                About
+              </Link>
+              <Link
+                to="/"
+                className="hover:bg-primary-base hover:bg-button-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Contact
+              </Link>
+              <Link
+                to="/profile/neo"
+                className="hover:bg-primary-base bg-button-primary text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Log In
+              </Link>
+            </div>
+          </div>
+        )}
+      </Container>
+    </nav>
+  );
+}
                
+export default Navbar;
