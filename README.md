@@ -19,6 +19,7 @@
 - [Links](#links)
 - [Installation](#installation)
 - [Future Development](#future-development)
+- [Contributing](#contributing)
 - [Licence](#licence)
 - [Authors](#authors)
 
