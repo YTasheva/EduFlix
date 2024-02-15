@@ -13,20 +13,19 @@ import education_7 from "./education_7.jpg";
 import education_8 from "./education_8.jpg";
 import quiz from "./quiz.jpg";
 
-
 export {
-    AIBanner,
-    digital_concept_1,
-    digital_concept_2,
-    digital_concept_3,
-    education_1,
-    education_2,
-    education_3,
-    education_4,
-    education_5,
-    education_6,
-    education_7,
-    education_8,
-    quiz,
-    logo,
-    };
+  AIBanner,
+  digital_concept_1,
+  digital_concept_2,
+  digital_concept_3,
+  education_1,
+  education_2,
+  education_3,
+  education_4,
+  education_5,
+  education_6,
+  education_7,
+  education_8,
+  quiz,
+  logo,
+};

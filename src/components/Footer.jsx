@@ -1,5 +1,5 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Footer = () => {
   const today = new Date();
@@ -28,7 +28,8 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="btn btn-light"
         >
-          <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn
+          <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>{" "}
+          LinkedIn
         </a>
       </div>
       <div className="text-center d-block bg-light text-dark container-fluid mb-3 pt-3">
@@ -41,4 +42,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
