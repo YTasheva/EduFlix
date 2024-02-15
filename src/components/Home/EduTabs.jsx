@@ -19,10 +19,10 @@ export default function EduTabs() {
             AI
           </Tab>
           <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
-            Maths
+            Cyber Security
           </Tab>
           <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
-            Front-End Web Development
+            Front-End Development
           </Tab>
         </TabList>
       </div>
