@@ -10,7 +10,7 @@ export default function EduCard({ key, card }) {
         </div>
         <div className="flex items-center gap-4 my-4 px-2">
           <h1 className="bg-[#5c807162] px-3 py-1 rounded-md text-[#6D9886] text-[17px] font-medium">
-            € {card.price}
+            £ {card.price}
           </h1>
           <p className="text-xs font-bold text-[#6D9886]">
             <i className="fa fa-clock text-xs text-[14px]" /> {card.date}
