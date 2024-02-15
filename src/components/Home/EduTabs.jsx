@@ -30,13 +30,13 @@ export default function EduTabs() {
         <EduCards />
       </TabPanel>
       <TabPanel>
-        <p>new  available soon</p>
+        <p>New - Available Soon!</p>
       </TabPanel>
       <TabPanel>
         <EduCards />
       </TabPanel>
       <TabPanel>
-        <p>new available soon</p>
+        <p>New - Available Soon!</p>
       </TabPanel>
       <TabPanel>
         <EduCards />
