@@ -1,5 +1,5 @@
 import logo from "./logo.jpg";
-import banners_concept from "./banners_concept.jpg";
+import AIBanner from "./AIBanner.png";
 import digital_concept_1 from "./digital_concept_1.jpg";
 import digital_concept_2 from "./digital_concept_2.jpg";
 import digital_concept_3 from "./digital_concept_3.jpg";
@@ -11,12 +11,11 @@ import education_5 from "./education_5.jpg";
 import education_6 from "./education_6.jpg";
 import education_7 from "./education_7.jpg";
 import education_8 from "./education_8.jpg";
-
 import quiz from "./quiz.jpg";
 
 
 export {
-    banners_concept,
+    AIBanner,
     digital_concept_1,
     digital_concept_2,
     digital_concept_3,
