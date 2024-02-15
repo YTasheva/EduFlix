@@ -11,7 +11,7 @@ export default function SearchBar() {
     <div className="relative z-40">
       <input
         type="text"
-        placeholder="Search by Funds, Consortium, category"
+        placeholder="Search by Category, Module, Topic"
         onFocus={focusHandler}
         onBlur={focusHandler}
         className="bg-white bg-opacity-50 focus:bg-opacity-100 border-[1px] border-white outline-none px-4 py-2 rounded-md sm:w-[500px] w-[300px] placeholder-white"
@@ -44,7 +44,7 @@ export default function SearchBar() {
                   <h1 className="font-light capitalize text-base">
                     Cyber Security
                   </h1>
-                  <p className="opacity-40">102 Projects</p>
+                  <p className="opacity-40">400 Projects</p>
                 </div>
               </div>
               <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
@@ -55,7 +55,7 @@ export default function SearchBar() {
                 />
                 <div>
                   <h1 className="font-light capitalize text-base">AI</h1>
-                  <p className="opacity-40">102 Projects</p>
+                  <p className="opacity-40">350 Projects</p>
                 </div>
               </div>
               <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
@@ -68,7 +68,7 @@ export default function SearchBar() {
                   <h1 className="font-light capitalize text-base">
                     Web Development
                   </h1>
-                  <p className="opacity-40">102 Projects</p>
+                  <p className="opacity-40">300 Projects</p>
                 </div>
               </div>
               <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
@@ -79,7 +79,7 @@ export default function SearchBar() {
                 />
                 <div>
                   <h1 className="font-light capitalize text-base">Python</h1>
-                  <p className="opacity-40">102 Projects</p>
+                  <p className="opacity-40">250 Projects</p>
                 </div>
               </div>
             </div>
