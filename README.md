@@ -79,7 +79,7 @@ Search results should dynamically update as the user types, providing real-time 
 
 ## Screenshot
 
-<img width="1497" alt="Screenshot Bootstrap1" src="https://iridescent-jelly-cb075f.netlify.app">
+<img width="1497" alt="Screenshot Bootstrap1" src="https://github.com/JonRahman/BananasProject2/blob/main/src/assets/images/EduFlix_Demo.gif">
 
 ## Technologies Used
 
