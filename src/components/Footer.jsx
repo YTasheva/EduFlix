@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
   const today = new Date();
@@ -30,7 +31,7 @@ const Footer = () => {
           <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn
         </a>
       </div>
-      <div className="text-center d-block bg-light text-dark container-fluid pt-3">
+      <div className="text-center d-block bg-light text-dark container-fluid mb-3 pt-3">
         <ul>
           <b>EduFlix &copy; {today.getFullYear()}</b>
         </ul>
