@@ -53,7 +53,7 @@ export default function SearchBar() {
                 />
                 <div>
                   <h1 className="font-light capitalize text-base">
-                  Cyber Security
+                  Geography
                   </h1>
                   <p className="opacity-40">102 Projects</p>
                 </div>
@@ -66,7 +66,7 @@ export default function SearchBar() {
                 />
                 <div>
                   <h1 className="font-light capitalize text-base">
-                  Cyber Security
+                  Maths
                   </h1>
                   <p className="opacity-40">102 Projects</p>
                 </div>
@@ -79,7 +79,7 @@ export default function SearchBar() {
                 />
                 <div>
                   <h1 className="font-light capitalize text-base">
-                  Cyber Security
+                  Science
                   </h1>
                   <p className="opacity-40">102 Projects</p>
                 </div>
