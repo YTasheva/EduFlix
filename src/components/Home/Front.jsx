@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SearchBar from "./SearchBar";
 
+
 export default function Front() {
     const [searchBar, setSearchBar] = useState(false);
 
@@ -14,7 +15,10 @@ export default function Front() {
                 {searchBar && (
                   <form className="flex items-end gap-4 flex-wrap">
                     <SearchBar />
-                    <button className="bg-white px-2 py-3 w-24 font-bold uppercase text-sm text-black hover:text-white hover:bg-black hover:bg-opacity-50 rounded-md">
+                    <button 
+                       className="bg-white px-2 py-3 w-24 font-bold uppercase text-sm text-black hover:text-white hover:bg-black hover:bg-opacity-50 rounded-md"
+                       
+                       >
                       Find
                     </button>
                   </form>
