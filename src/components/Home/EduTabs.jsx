@@ -4,8 +4,8 @@ import EduCards from "./EduCards";
 import TitleSection from "./TitleSection";
 
 export default function EduTabs() {
-    return (
-<Tabs className="sm:mt-0 mt-14">
+  return (
+    <Tabs className="sm:mt-0 mt-14">
       <div className="flex items-center sm:justify-between justify-center flex-wrap my-8">
         <TitleSection title="hot education" />
         <TabList className="flex overflow-auto">
@@ -19,28 +19,28 @@ export default function EduTabs() {
             AI
           </Tab>
           <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
-            Maths
+            Cyber Security
           </Tab>
           <Tab className="px-4 py-3 cursor-pointer font-bold sm:text-[16px] text-[14px]">
-            Front-End Web Development
+            Front-End Development
           </Tab>
-          </TabList>
+        </TabList>
       </div>
       <TabPanel>
         <EduCards />
       </TabPanel>
       <TabPanel>
-        <p>new  available soon</p>
+        <p>New - Available Soon!</p>
       </TabPanel>
       <TabPanel>
         <EduCards />
       </TabPanel>
       <TabPanel>
-        <p>new available soon</p>
+        <p>New - Available Soon!</p>
       </TabPanel>
       <TabPanel>
         <EduCards />
       </TabPanel>
-        </Tabs>
-        );
-      }
+    </Tabs>
+  );
+}
