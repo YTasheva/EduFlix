@@ -74,7 +74,7 @@ function Navbar() {
                 to="/"
                 className="hover:bg-primary-base hover:bg-button-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-               Education
+                Education
               </Link>
               <Link
                 to="/"
@@ -101,5 +101,5 @@ function Navbar() {
     </nav>
   );
 }
-               
+
 export default Navbar;
