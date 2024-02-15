@@ -5,41 +5,17 @@ import API from "../../utils/API";
 
  export default function EduCard({ key, card }) {
 
-  const handleSearchClick = (event) => {
-    // event.preventDefault();
+  const handleSearchClick = () => {
+    
     searchVideo(card.topic);
   }; 
 
   const searchVideo = (query) => {
     API.search(query)
-    .then((response) => 
-       
-      {
-        
-      const data = response.data;
-      
-      // Check if there are any video results
-      if (data.items && data.items.length > 0) {
-          const videoId = data.items[0].id.videoId; // Get the video ID of the first result
-          const trailerSrc = `https://www.youtube.com/embed/${videoId}`;
-
-          const videoModalLabel = document.getElementById('videoModalLabel');
-          const videoModalIframe = document.getElementById('videoPlayer');
-          videoModalLabel.textContent = card.topic;
-          videoModalIframe.src = trailerSrc;
-          // Show the modal
-          const videoModal = document.getElementById('videoModal');
-          videoModal.show(); 
-
-          
-
-      } else {
-          console.error('No video for this search.');
-          // Log error when there's no trailer available
-      }
-  })
+    .then((response) => {
+      return response.json();
+    })
     .catch((error) => console.log(error))
-  
     }; 
   
   
@@ -48,26 +24,6 @@ import API from "../../utils/API";
     
 
     <div className="h-[550px] w-[320px]" key={key}>
-
-<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="videoModalLabel">The Creator (Video Name/Title)</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe id="videoPlayer" class="embed-responsive-item" src="https://www.youtube.com/embed/${videoId}"></iframe>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" id="myWatchlist">Add to Watchlist</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
       <div className="relative rounded-xl overflow-hidden">
