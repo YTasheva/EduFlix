@@ -115,4 +115,4 @@ Search results should dynamically update as the user types, providing real-time 
 
 ## Authors
 
-- GitHub - [Yuliya Tasheva](https://github.com/YTasheva); [Jon Rahman](https://github.com/JonRahman); [Emmanuel Boadi](https://github.com/emmaboadi); [Kelly Niapekem](https://github.com/nijiti)
+- GitHub - [Yuliya Tasheva](https://github.com/YTasheva); [Jon Rahman](https://github.com/JonRahman); [Emmanuel Boadi](https://github.com/emmaboadi)
