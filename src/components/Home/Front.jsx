@@ -1,21 +1,6 @@
 import { useState } from "react";
 import SearchBar from "./SearchBar";
-// import API from '../utils/API';
 
-const handleclick = () => {
-  console.log('hello world');
-}
-/* 
-const handleFormSubmit = (event) => {
-  event.preventDefault();
-  searchVideos(searchData.search);
-};
-
-const searchVideos = (query) => {
-  API.search(query)
-    .then((res) => setSearchData({ ...searchData, results: res.data.data }))
-    .catch((err) => console.log(err));
-}; */
 
 export default function Front() {
     const [searchBar, setSearchBar] = useState(false);

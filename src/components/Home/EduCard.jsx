@@ -21,6 +21,8 @@ import API from "../../utils/API";
   
 
   return (
+    
+
     <div className="h-[550px] w-[320px]" key={key}>
       <div className="relative rounded-xl overflow-hidden">
         <img src={card.image} alt="fund1" />
