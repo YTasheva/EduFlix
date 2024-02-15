@@ -6,7 +6,7 @@ const cards = [
   {
     id: 1,
     image: digital_concept_1,
-    title: "Videos",
+    title: "Courses",
   },
   {
     id: 2,
