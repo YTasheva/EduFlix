@@ -54,27 +54,27 @@ export default function SearchBar() {
                   className="w-12 h-12 rounded-full"
                 />
               
-                  <h1 className="font-light capitalize text-base">AI</h1>
-                  <p className="opacity-40">350 Projects</p>
-                  <h1 className="font-light capitalize text-base">
+                <h1 className="font-light capitalize text-base">AI</h1>
+                <p className="opacity-40">350 Projects</p>
+                <h1 className="font-light capitalize text-base">
                   Geography
-                  </h1>
-                  <p className="opacity-40">102 Projects</p>
+                </h1>
+                <p className="opacity-40">102 Projects</p>
 
-                </div>
               </div>
-              <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
-                <img
-                  src={random}
-                  alt="random"
-                  className="w-12 h-12 rounded-full"
-                />
-                <div>
-                  <h1 className="font-light capitalize text-base">
-                    Web Development
-                  </h1>
-                  <p className="opacity-40">300 Projects</p>
-                </div>
+            </div>
+            <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
+              <img
+                src={random}
+                alt="random"
+                className="w-12 h-12 rounded-full"
+              />
+              <div>
+                <h1 className="font-light capitalize text-base">
+                  Web Development
+                </h1>
+                <p className="opacity-40">300 Projects</p>
+              </div>
               </div>
               <div className="flex items-center gap-2 flex-wrap border-[1px] rounded-md p-2 cursor-pointer hover:bg-gray-600 hover:text-white border-gray-500">
                 <img
@@ -96,7 +96,6 @@ export default function SearchBar() {
               </div>
             </div>
           </div>
-        </div>
       )}
     </div>
   );
