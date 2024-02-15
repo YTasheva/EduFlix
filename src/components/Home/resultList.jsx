@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 function SearchResult(props) {
   return (
@@ -15,3 +15,4 @@ function SearchResult(props) {
 }
 
 export default SearchResult;
+ */

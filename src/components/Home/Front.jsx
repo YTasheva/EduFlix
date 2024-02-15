@@ -1,5 +1,21 @@
 import { useState } from "react";
 import SearchBar from "./SearchBar";
+// import API from '../utils/API';
+
+const handleclick = () => {
+  console.log('hello world');
+}
+/* 
+const handleFormSubmit = (event) => {
+  event.preventDefault();
+  searchVideos(searchData.search);
+};
+
+const searchVideos = (query) => {
+  API.search(query)
+    .then((res) => setSearchData({ ...searchData, results: res.data.data }))
+    .catch((err) => console.log(err));
+}; */
 
 export default function Front() {
     const [searchBar, setSearchBar] = useState(false);
@@ -14,7 +30,10 @@ export default function Front() {
                 {searchBar && (
                   <form className="flex items-end gap-4 flex-wrap">
                     <SearchBar />
-                    <button className="bg-white px-2 py-3 w-24 font-bold uppercase text-sm text-black hover:text-white hover:bg-black hover:bg-opacity-50 rounded-md">
+                    <button 
+                       className="bg-white px-2 py-3 w-24 font-bold uppercase text-sm text-black hover:text-white hover:bg-black hover:bg-opacity-50 rounded-md"
+                       
+                       >
                       Find
                     </button>
                   </form>

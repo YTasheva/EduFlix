@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import random from "../../assets/images/quiz.jpg";
 

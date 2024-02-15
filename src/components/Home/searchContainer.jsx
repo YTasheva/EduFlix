@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import SearchForm from './SearchForm';
 import ResultList from './resultList';
 import API from '../utils/API';
+import Front from './Front';
+import SearchBar from './SearchBar';
 
 function SearchResultContainer() {
   const [searchData, setSearchData] = useState({
@@ -9,7 +11,7 @@ function SearchResultContainer() {
     results: [],
   });
 
-  const searchGiphy = (query) => {
+  const searchVideos = (query) => {
     API.search(query)
       .then((res) => setSearchData({ ...searchData, results: res.data.data }))
       .catch((err) => console.log(err));
@@ -27,19 +29,20 @@ function SearchResultContainer() {
   // When the form is submitted, search the Giphy API for `searchData.search`
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    searchGiphy(searchData.search);
+    searchVideos(searchData.search);
   };
 
   return (
     <div>
-      <SearchForm
-        search={searchData.search}
+      <SearchBar
+        value={searchData.search}
         handleFormSubmit={handleFormSubmit}
         handleInputChange={handleInputChange}
       />
-      <ResultList results={searchData.results} />
+     //<ResultList results={searchData.results} />
     </div>
   );
 }
 
 export default SearchResultContainer;
+ 

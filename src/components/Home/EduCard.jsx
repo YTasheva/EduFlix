@@ -1,16 +1,24 @@
 import React from "react";
-import youtubeApi from "utils"; // Replace with the correct module path
+import API from "../../utils/API";
 
-export default function EduCard({ key, card }) {
-  const handleSearchClick = () => {
-    youtubeApi.search(card.topic)
-      .then(response => {
-        console.log(response.data); 
-      })
-      .catch(error => {
-        console.error("Error fetching data from YouTube API:", error);
-      });
-  };
+
+ export default function EduCard({ key, card }) {
+
+  const handleSearchClick = (event) => {
+    // event.preventDefault();
+    searchVideo(card.topic);
+  }; 
+
+  const searchVideo = (query) => {
+    API.search(query)
+    .then((response) => {
+      return response.json();
+    })
+    .catch((error) => console.log(error))
+  
+    }; 
+  
+  
 
   return (
     <div className="h-[550px] w-[320px]" key={key}>
@@ -34,4 +42,4 @@ export default function EduCard({ key, card }) {
       </h2>
     </div>
   );
-}
+}   
