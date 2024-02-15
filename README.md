@@ -79,6 +79,7 @@ Search results should dynamically update as the user types, providing real-time 
 
 ## Screenshot
 
+<img width="1497" alt="Screenshot Bootstrap1" src="https://iridescent-jelly-cb075f.netlify.app">
 
 ## Technologies Used
 
@@ -89,7 +90,7 @@ Search results should dynamically update as the user types, providing real-time 
 
 ## Links
 
-- [Deployed Application](https://BananasProject2.netlify.app/)
+- [Deployed Application](https://iridescent-jelly-cb075f.netlify.app)
 - [GitHub Repo](https://github.com/JonRahman/BananasProject2)
 
 ## Installation
