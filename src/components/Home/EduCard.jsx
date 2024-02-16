@@ -1,9 +1,10 @@
 
-import React from "react";
+import React, {useState} from "react";
 import API from "../../utils/API";
 
 
  export default function EduCard({ key, card }) {
+  const [searchResults, setSearchResults] = useState([])
 
   const handleSearchClick = () => {
     
@@ -14,41 +15,38 @@ import API from "../../utils/API";
     API.search(query)
     .then((response) => {
       const results = response.data.items;
+      console.log(results[0].id)
 
-      for (let i=0; i < results.length; i++) {
-        console.log(results[i]);
-
-     // }
-      
-            const videoId = results[i].id.videoId; // Get the video ID of the first result
-            const trailerSrc = `https://www.youtube.com/embed/${videoId}`;
-            // Set the trailer source and update modal title
-
-            
-
-
-        
+      for (let i = 0; i < results.length; i++) {
+        if (results[i].id.videoId != undefined) {
+          const videoId = results[i].id.videoId;
+          const trailerSrc = `https://www.youtube.com/embed/${videoId}`;
   
-       
+          console.log(trailerSrc)
+
         }
-    })
+
+      }
+
+      //setSearchResults(trailerSrc)
+    
+        })
     .catch((error) => {
         console.error('Error fetching video:', error);
         // Log error when there is a problem fetching trailer
     });
+
+    
       
   }
     
   
 
-   
-  
-
   return (
+   
     
 
     <div className="h-[550px] w-[320px]" key={key}>
-
 
       <div className="relative rounded-xl overflow-hidden">
         <img src={card.image} alt="fund1" />
@@ -66,11 +64,16 @@ import API from "../../utils/API";
         <i className="fa fa-heart text-xs text-[#6D9886] text-[14px] ml-auto" />
       </div>
       <h2 className="font-bold text-[17px] px-2 hover:text-[#6D9886] transition-colors cursor-pointer" onClick={handleSearchClick}>
-       
+     
         {card.topic}
-        
        
+    
+
       </h2>
+      
     </div>
+   
+  
   );
 }    
+ 
