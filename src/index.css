@@ -34,13 +34,10 @@ body {
 
 /* EduTabs styles */
 .react-tabs__tab--selected {
-  border-bottom: 2px solid green !important;
+  border-bottom: 2px solid rgb(47, 154, 236) !important;
   background: transparent !important;
   font-weight: bold;
-  color: green !important;
+  color: rgb(18, 103, 214) !important;
   transition: all 0.3s ease-in-out;
   outline: none !important ;
 }
-
-
-

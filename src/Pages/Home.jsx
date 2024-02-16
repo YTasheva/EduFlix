@@ -4,7 +4,7 @@ import Edu from "../components/Home/Edu";
 import Stats from "../components/Home/Stats";
 
 export default function Home() {
-  return (
+  return ( 
     <main>
       <Front />
       <Stats />

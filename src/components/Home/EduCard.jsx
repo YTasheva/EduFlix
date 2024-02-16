@@ -1,4 +1,5 @@
 
+
 import React, {useState} from "react";
 import API from "../../utils/API";
 
@@ -48,6 +49,11 @@ import API from "../../utils/API";
 
     <div className="h-[550px] w-[320px]" key={key}>
 
+
+export default function EduCard({ card }) {
+  return (
+    <div className="h-[550px] w-[320px]">
+    
       <div className="relative rounded-xl overflow-hidden">
         <img src={card.image} alt="fund1" />
         <div className="absolute top-4 uppercase right-4 leading-tight font-bold w-[70px] h-[70px] flex items-center justify-center bg-white text-black rounded-full text-[10px] text-center">
