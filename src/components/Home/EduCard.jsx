@@ -1,34 +1,6 @@
-import React from "react";
-import API from "../../utils/API";
-
-export default function EduCard({ key, card }) {
-  const handleSearchClick = () => {
-    searchVideo(card.topic);
-  };
-
-  const searchVideo = (query) => {
-    API.search(query)
-      .then((response) => {
-        const results = response.data.items;
-
-        for (let i = 0; i < results.length; i++) {
-          const video = results[i];
-          console.log("Video:", video);
-
-          // Check if the video belongs to the specified channel (e.g., Codecademy)
-          if (video.snippet.channelId === "UC46wWUso9H5KPQcoL9iE3Ug") {
-            // Open the video in a new window
-            window.open(`https://www.youtube.com/watch?v=${video.id.videoId}`);
-          }
-        }
-      })
-      .catch((error) => {
-        console.error('Error fetching video:', error);
-      });
-  };
-
+export default function EduCard({ card }) {
   return (
-    <div className="h-[550px] w-[320px]" key={key}>
+    <div className="h-[550px] w-[320px]">
       <div className="relative rounded-xl overflow-hidden">
         <img src={card.image} alt="fund1" />
         <div className="absolute top-4 uppercase right-4 leading-tight font-bold w-[70px] h-[70px] flex items-center justify-center bg-white text-black rounded-full text-[10px] text-center">
