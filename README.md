@@ -92,6 +92,10 @@ Search results should dynamically update as the user types, providing real-time 
 - [Deployed Application](https://BananasProject2.netlify.app/)
 - [GitHub Repo](https://github.com/JonRahman/BananasProject2)
 
+
+
+EduFlix (iridescent-jelly-cb075f.netlify.app)
+
 ## Installation
 
 - To install this application, clone or download
