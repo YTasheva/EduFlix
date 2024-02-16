@@ -84,6 +84,7 @@ const cards = [
   },
 ];
 
+
 export default function EduCards() {
   return (
     <article className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center lg:gap-14 gap-4">
@@ -93,3 +94,4 @@ export default function EduCards() {
     </article>
   );
 }
+

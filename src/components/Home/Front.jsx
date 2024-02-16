@@ -1,8 +1,10 @@
 import { useState } from "react";
 import SearchBar from "./SearchBar";
 
+
 export default function Front() {
   const [searchBar, setSearchBar] = useState(false);
+
 
 
   return (
@@ -39,6 +41,7 @@ export default function Front() {
         <article className="lg:flex hidden items-end absolute top-[30%] right-0 w-[30%] border-l-2 h-1/2 px-2 border-l-white">
           <div className="text-white text-[26px] w-[80%]">
             Find the right tutorials, modules, and projects for e-education
+
           </div>
         </article>
       </div>
