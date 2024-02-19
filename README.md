@@ -1,5 +1,15 @@
 <h1 align="center">EduFlix</h1>
-  <br>
+   <br>
+  <a href="https://github.com/YTasheva">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-thebadge" alt=""></a>
+  <a href="https://github.com/YTasheva/EduFlix/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/YTasheva/eduflix.svg?style=for-the-badge" alt=""></a>
+  <a href="https://github.com/YTasheva/EduFlix/issues">
+      <img src="https://img.shields.io/github/issues/YTasheva/eduflix.svg?style=for-the-badge" alt=""></a>
+  <a href="https://github.com/YTasheva/EduFlix/network/members">
+      <img src="https://img.shields.io/github/forks/YTasheva/eduflix.svg?style=for-the-badge" alt=""></a>
+      
+  
   
 ## Table of contents
 
