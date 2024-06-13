@@ -1,7 +1,7 @@
 <h1 align="center">EduFlix</h1>
    <br>
   <a href="https://github.com/YTasheva">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-thebadge" alt=""></a>
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge" alt=""></a>
   <a href="https://github.com/YTasheva/EduFlix/graphs/contributors">
       <img src="https://img.shields.io/github/contributors/YTasheva/eduflix.svg?style=for-the-badge" alt=""></a>
   <a href="https://github.com/YTasheva/EduFlix/issues">
@@ -102,7 +102,8 @@ Search results should dynamically update as the user types, providing real-time 
 
 - [Deployed Application](https://iridescent-jelly-cb075f.netlify.app)
 - [GitHub Repo](https://github.com/JonRahman/BananasProject2)
-
+- [Presentation slides](https://docs.google.com/presentation/d/1g8W_RB0Ge_BiLAR7eQpk6uRR-xB80-R80DcC3i9etD8/edit?usp=sharing)
+  
 ## Installation
 
 - To install this application, clone or download
